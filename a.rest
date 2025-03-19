@@ -1,0 +1,20 @@
+GET https://guzzoxdev-5000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/
+
+
+###
+POST https://guzzoxdev-5000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/emotionDetector
+Content-Type: application/json
+
+{
+    "text": "John Doe"
+}
+
+###
+GET http://localhost:5000/
+###
+POST http://localhost:5000/emotionDetector
+Content-Type: application/json
+
+{
+    "text": "John Doe"
+}
